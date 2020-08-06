@@ -1,22 +1,47 @@
 body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#bg-up {
+  background-color: #F8FBF0;
+  margin-top: 0px;
+}
+
+#back {
+  color : black;
+  text-decoration: none;
+}
+
+#back :hover{
+  color :#C6D893;
+}
+
+body {
     background-color:#DEEDB4;
   }
+
+ #option{
+   margin-left:auto ;
+   margin-right:auto;
+   margin-bottom: 20px;
+   padding: 10px 10px 10px 30px;
+   border-style:outset;
+   border-radius: 30px;
+   width:700px;
+   height:90px;
+   border-color: white;
+   background-color:#EEF9D1;
+   align-content: center;
+   border-collapse: collapse;
+ }
   
-  #option{
-    margin-left:auto ;
-    margin-right:auto;
-    margin-bottom: 20px;
-    padding: 10px 10px 10px 30px;
-    border-style:outset;
-    border-radius: 30px;
-    width:700px;
-    height:90px;
-    border-color: white;
-    background-color:#EEF9D1;
-    align-content: center;
-    border-collapse: collapse;
+  #organisasi{
+    color : black;
+    text-decoration: none;
   }
-  
+
+  #organisasi :hover {
+    color :#C6D893;
+  }
   #foto {
     float:left;
     width:60px;
@@ -26,10 +51,10 @@ body {
   
   #logo{
     display: block;
-    margin-left: auto;
-    margin-right:auto;
-    width : 20%;
-    height : 20%;
+    margin : auto;
+    width : 300px;
+    height : 120px;
+    padding : 5px 0px 25px 0px;
   }
 
 footer {
@@ -37,10 +62,4 @@ footer {
     position: relative;
     height: 100px;
     margin-top: 0px;
-    background-color: white;
-    text-pos
-}
-
-footer p {
-  font-size: 30px;
 }
