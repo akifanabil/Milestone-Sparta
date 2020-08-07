@@ -1,43 +1,55 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
     <title>Donate My Food</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="header">
-    <h1>DONATE MY FOOD</h1>
-    </div>
-    <script>
-        function myFunction() {
-          // Declare variables
-          var input, filter, ul, li, a, i, txtValue;
-          input = document.getElementById('myInput');
-          filter = input.value.toUpperCase();
-          ul = document.getElementById("myUL");
-          li = ul.getElementsByTagName('li');
-        
-          // Loop through all list items, and hide those who don't match the search query
-          for (i = 0; i < li.length; i++) {
-            a = li[i].getElementsByTagName("a")[0];
-            txtValue = a.textContent || a.innerText;
-            if (txtValue.toUpperCase().indexOf(filter) > -1) {
-              li[i].style.display = "";
-            } else {
-              li[i].style.display = "none";
+  </head>
+  <body bgcolor="#F8FBF0">
+    
+    <div class="container">
+      <div class="header">
+      <h1>DONATE MY FOOD</h1>
+      </div>
+      <script>
+          function myFunction() {
+            // Declare variables
+            var input, filter, ul, li, a, i, txtValue;
+            input = document.getElementById('myInput');
+            filter = input.value.toUpperCase();
+            ul = document.getElementById("myUL");
+            li = ul.getElementsByTagName('li');
+          
+            // Loop through all list items, and hide those who don't match the search query
+            for (i = 0; i < li.length; i++) {
+              a = li[i].getElementsByTagName("a")[0];
+              txtValue = a.textContent || a.innerText;
+              if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                li[i].style.display = "";
+              } else {
+                li[i].style.display = "none";
+              }
             }
           }
-        }
-        </script>
-    <input type="text" class="myInput" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+          </script>
+      <input type="text" class="myInput" id="myInput" onkeyup="myFunction()" placeholder="Search for City">
+  
+      <ul class="myUL" id="myUL">
+          <li><a href="jakarta.html"><img src="imgd/1.png"> <br>jakarta</a></li>
+          <li><a href="bandung.html"><img src="imgd/2.jpg"> <br>Bandung</a></li>
+          <li><a href="surabaya.html"><img src="imgd/3.jpg"> <br>Surabaya</a></li>
+          </ul>
+        </div>  
 
-    <ul class="myUL" id="myUL">
-        <li><a href="jakarta.html"><img src="imgd/1.png"> <br>jakarta</a></li>
-        <li><a href="bandung.html"><img src="imgd/2.jpg"> <br>Bandung</a></li>
-        <li><a href="surabaya.html"><img src="imgd/3.jpg"> <br>Surabaya</a></li>
-        </ul>
-        
-</body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
 </html>

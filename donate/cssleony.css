@@ -1,0 +1,67 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+}
+#bg-up {
+  background-color: #F8FBF0;
+  margin-top: 0px;
+}
+
+#back {
+  text-decoration: none;
+  color : black;
+  
+}
+
+#back :hover{
+  color :#C6D893;
+}
+
+body {
+    background-color:#DEEDB4;
+}
+
+#option{
+  border-style:outset;
+  border-radius: 30px;
+  margin-left:auto ;
+  margin-right:auto;
+  margin-bottom: 20px;
+  padding: 10px 10px 10px 30px;
+  width:700px;
+  height:90px;
+  border-color: white;
+  background-color:#EEF9D1;
+  align-content: center;
+  border-collapse: collapse;
+}
+  
+#organisasi{
+  color : black;
+  text-decoration: none;
+}
+
+#organisasi :hover {
+  color :#C6D893;
+}
+
+#foto {
+  float:left;
+  width:60px;
+  height:60px;
+  margin: 5px 10px 5px 5px;
+}
+  
+#logo{
+  display: block;
+  margin : auto;
+  width : 300px;
+  height : 120px;
+  padding : 0px 0px 20px 0px;
+}
+
+footer {
+  clear: both;
+  position: relative;
+  height: 100px;
+  margin-top: 0px;
+}
