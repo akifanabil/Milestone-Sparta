@@ -65,10 +65,10 @@
             </div>
           </div>
         </div>
-        <button class="btn btn-primary" type="submit">Submit form</button>
+        <button class="btn btn-primary" type="submit">Submit</button>
       </form>
     </div>
-      
+
       <script>
       // Example starter JavaScript for disabling form submissions if there are invalid fields
       (function() {
@@ -87,8 +87,20 @@
             }, false);
           });
         }, false);
+        
       })();
+      function valthisform(){
+ var chkd = document.FC.c1.checked || document.FC.c2.checked||document.FC.c3.checked|| document.FC.c4.checked
+
+ if (chkd == true){
+
+ } else {
+    alert ("please check a checkbox")
+ }
+
+}
       </script>
+  
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
