@@ -36,7 +36,7 @@
         </li>
       </ul>
 
-      <form class="needs-validation" novalidate>
+      <form action="lastpagedonate.html" class="needs-validation" novalidate>
         <div class="form-row">
           <div class="col-md-6 mb-3">
             <label for="validationCustom01">First name</label>
@@ -65,7 +65,7 @@
             </div>
           </div>
         </div>
-        <button class="btn btn-primary" type="submit">Submit</button>
+        <button class="btn btn-primary" type="submit" onsubmit="location.href='lastpagedonate.html'">Submit</button>
       </form>
     </div>
 
@@ -82,23 +82,17 @@
               if (form.checkValidity() === false) {
                 event.preventDefault();
                 event.stopPropagation();
+              
               }
+              
               form.classList.add('was-validated');
+              
             }, false);
           });
         }, false);
         
       })();
-      function valthisform(){
- var chkd = document.FC.c1.checked || document.FC.c2.checked||document.FC.c3.checked|| document.FC.c4.checked
-
- if (chkd == true){
-
- } else {
-    alert ("please check a checkbox")
- }
-
-}
+    
       </script>
   
     <!-- Optional JavaScript -->
