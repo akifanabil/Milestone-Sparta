@@ -1,43 +1,80 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
-		<link rel= "stylesheet" href="style.css">
-		<title>Food Ingredients - Main</title>
-	</head>
-	<body>
-		<div class="container-fluid padding">
-		<div class="row welcome text-center padding">
-			<div class="col-12">
-				<h1 class="display-4">Foodieasy</h1>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Welcome</title>
+      <link rel="stylesheet" href="nav.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+      <script src="nav.js"></script>
+   </head>
+
+   <body>
+        <header>
+            <nav>
+                <div class="menu-icon">
+                  <i class="fa fa-bars fa-2x"></i>
+                </div>
+          
+                <div class="menu">
+                  <ul>
+                    <li class="item"><a href="../homepage/index.html">Home</a></li>
+                    <li class="item"><a href="../signin-signup/sign.html">Login</a></li>
+                    <li class="item"><a href="#">Feature</a></li>
+                    <li class="item"><a href="#">FAQ</a></li>
+                  </ul>
+                 </div>
+
+                 <a class="navbar-brand" href="../homepage/index.html">
+                    <div class="logo">
+                          <img src="resources/foto/logoapp.png">
+                    </div>
+                </a>
+              </nav>
+        </header>
+
+        <!-- EDIT CONTENT PAGENYA DISINI -->
+        <div class="content">
+        	<!-- Title -->
+        	<div class="container-fluid padding">
+			<div class="row welcome text-center padding">
+				<div class="col-12">
+					<h1 class="display-4">Foodieasy</h1>
+				</div>
+				<hr>
+				<div class="col-12">
+					<p class="lead">Here are lists of your food ingredients.</p>
+				</div>
+			</div>
 			</div>
 			<hr>
-			<div class="col-12">
-				<p class="lead">Here are lists of your food ingredients.</p>
+			<!-- Ingredients -->
+			<div class="container-fluid padding">
+			<div class="row text-center padding">
+				<div class="col-lg-4">
+					<h2>500 gr flour</h2>
+				</div>
+				<div class="col-lg-4">
+					<h2>10 eggs</h2>
+				</div>
+				<div class="col-lg-4">
+					<h2>2 L milk</h2>
+				</div>
+			</div>		
 			</div>
-		</div>	
-		<hr>
-		<!-- Two Sections -->
-		<div class="container-fluid padding">
-		<div class="row text-center padding">
-			<div class="col-lg-4">
-				<h2>500 gr flour</h2>
+			<!-- Add Ingredients -->
+			<div class="container-fluid padding">
+			<div class="row text-center padding">
+				<div class="col-sm-12">
+					<a href="#">+ Add Ingredients</a>
+				</div>
 			</div>
-			<div class="col-lg-4">
-				<h2>10 eggs</h2>
 			</div>
-			<div class="col-lg-4">
-				<h2>2 L milk</h2>
-			</div>
-		</div>		
-		</div>
+        </div>
 
-		<div class="container-fluid padding">
-		<div class="row text-center padding">
-			<div class="col-sm-12">
-				<a href="#">+ Add Ingredients</a>
-			</div>
-		</div>
-		</div>
-	</body>
+
+   </body>
 </html>
