@@ -157,7 +157,7 @@ nav ul li:hover,
 nav ul #active{
     background: #a4ad9a;
 }
-
+}
 nav ul li a {
     text-decoration: none!important;
     color: #cbd9a3;
@@ -275,3 +275,4 @@ h1{
       margin-top:5%;
     }
   }
+  
