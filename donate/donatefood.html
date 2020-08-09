@@ -8,35 +8,71 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+      <script src="nav.js"></script>
     <title>Donate My Food</title>
   </head>
   <body>
-    <div class="fixed-bottom">
-      <button type="button" class="btn btn-lg btn-block btn-outline-secondary" onclick="goBack()">Back</button>
-    </div>
-    <div class="container-md">
+    <header>
+      <nav>
+          <div class="menu-icon">
+            <i class="fa fa-bars fa-2x"></i>
+          </div>
     
-    <h1>FOODIEASY</h1>
+          <div class="menu">
+            
+            <ul>
+              
+              <li class="item"><a href="../homepage/index.html">Home</a></li>
+              <li class="item"><a href="../signin-signup/sign.html">Login</a></li>
+              <li class="item"><a href="#">Fiture</a></li>
+              <li class="item"><a href="#">FAQ</a></li>
+            </ul>
+           </div>
+
+           <a class="backbutton" onclick="goBack()">
+            <img class="home" src="imgd/back.svg">
+          </a>
+          
+        </nav>
+  </header>
+
+    <div class="container-md">   
     
       <ul class="list-group">
+
         <li class="list-group-item">500 gr Flour
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+            <div class="formcheck form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1" >
                 <label class="form-check-label" for="inlineCheckbox1"></label>
               </div>
         </li>
         <li class="list-group-item">1 Kg sugar
-            <div class="form-check form-check-inline">
+            <div class="formcheck form-check-inline">
                 <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
                 <label class="form-check-label" for="inlineCheckbox1"></label>
               </div>
         </li>
         <li class="list-group-item">5 Kg rice
-            <div class="form-check form-check-inline">
+            <div class="formcheck form-check-inline">
                 <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
                 <label class="form-check-label" for="inlineCheckbox1"></label>
               </div>
         </li>
+        <li class="list-group-item">2L Vegetable Oil
+          <div class="formcheck form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+              <label class="form-check-label" for="inlineCheckbox1"></label>
+            </div>
+      </li>
+        <li class="list-group-item">Others
+          <div class="formcheck form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+              <label class="form-check-label" for="inlineCheckbox1"></label>
+            </div>
+      </li>
       </ul>
 
       <form action="lastpagedonate.html" class="needs-validation" novalidate>
@@ -71,6 +107,11 @@
         <button class="btn btn-primary" type="submit" onsubmit="location.href='lastpagedonate.html'">Submit</button>
       </form>
     </div>
+    
+    
+    <a href="../homepage/index.html">
+      <img src="logo.png" width="250px" class="center"> 
+    </a>
 
       <script>
       // Example starter JavaScript for disabling form submissions if there are invalid fields
