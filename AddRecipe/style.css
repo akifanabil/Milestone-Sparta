@@ -1,0 +1,65 @@
+body.content {
+    font-family: "Helvetica Neue",sans-serif;
+    font-weight: lighter;
+    background: #f7f8ef;
+}
+textarea {
+    resize: vertical;
+    width: 100%;
+    padding: 0.5em;
+    outline: none;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    background: #f9f9f9;
+    font-family: "Helvetica Neue",sans-serif;
+}
+textarea:focus {
+    background: #ffffff;
+}
+textarea::placeholder {
+    color: #aaaaaa;
+    font-family: "Helvetica Neue",sans-serif;
+}
+form {
+    width: 420px;
+    margin: auto;
+}
+body h3 {
+    text-align: center;
+    color: #99B55E;
+}
+button {
+    text-align: center;
+    border-radius: 10px;
+    background: #99B55E;
+    border: 1px solid #93ad59;
+    text-decoration: none; 
+    color: white;
+    padding: 15px 32px;
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+}
+button:active {
+    background: #93ad59;
+}
+input{
+    padding: 0.5em;
+    outline: none;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    background: #f9f9f9;
+}
+input:focus {
+    background: #ffffff;
+}
+input::placeholder {
+    color: #aaaaaa;
+}
+#food, #photo {
+    width: 100%;
+}
+.add {
+    color: #cbd9a3;
+    padding-top: 5px;
+}
