@@ -19,13 +19,14 @@
             <h2 class="title">Sign in</h2>
             <div class="input-field">
               <i class="fas fa-user"></i>
-              <input type="text" placeholder="Username" />
+              <input id="uname-login" type="text" placeholder="Username" required minlength="6"/>
             </div>
             <div class="input-field">
               <i class="fas fa-lock"></i>
-              <input type="password" placeholder="Password" />
+              <input id="password-login" type="password" placeholder="Password" required, minlength="8"/>
             </div>
-            <input type="submit" value="Login" class="btn solid" />
+            <input onclick="klik1()" type="submit" value="Login" class="btn solid" />
+            <p style="color: brown;" id="demo"></p>
             <p class="social-text">Or Sign in with social platforms</p>
             <div class="social-media">
               <a href="#" class="social-icon">
@@ -46,17 +47,18 @@
             <h2 class="title">Sign up</h2>
             <div class="input-field">
               <i class="fas fa-user"></i>
-              <input type="text" placeholder="Username" />
+              <input id="uname-signup" type="text" placeholder="Username" required minlength="6"/>
             </div>
             <div class="input-field">
               <i class="fas fa-envelope"></i>
-              <input type="email" placeholder="Email" />
+              <input id="email-signup" type="email" placeholder="Email" required />
             </div>
             <div class="input-field">
               <i class="fas fa-lock"></i>
-              <input type="password" placeholder="Password" />
+              <input id="passw-signup" type="password" placeholder="Password" required minlength="8" />
             </div>
-            <input type="submit" class="btn" value="Sign up" />
+            <input onclick="klik2()" type="submit" class="btn" value="Signup" />
+            <p style="color: brown;" id="wrong"></p>
             <p class="social-text">Or Sign up with social platforms</p>
             <div class="social-media">
               <a href="#" class="social-icon">
