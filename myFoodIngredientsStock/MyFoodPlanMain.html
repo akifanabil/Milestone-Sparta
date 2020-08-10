@@ -1,69 +1,62 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
       <title>Welcome</title>
       <link rel="stylesheet" href="nav.css">
+      <link rel="stylesheet" href="MyFoodPlanMain.css">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
       <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
       <script src="nav.js"></script>
    </head>
 
    <body>
         <header>
-            <nav>
-                <div class="menu-icon">
-                  <i class="fa fa-bars fa-2x"></i>
-                </div>
-          
-                <div class="menu">
-                  <ul>
-                    <li class="item"><a href="../homepage/index.html">Home</a></li>
-                    <li class="item"><a href="../signin-signup/sign.html">Login</a></li>
-                    <li class="item"><a href="#">Feature</a></li>
-                    <li class="item"><a href="#">FAQ</a></li>
-                  </ul>
-                 </div>
-
-                 <a class="navbar-brand" href="../homepage/index.html">
-                    <div class="logo">
-                          <img src="resources/foto/logoapp.png">
-                    </div>
-                </a>
-              </nav>
+          <nav>
+            <div class="menu-icon">
+               <i class="fa fa-bars fa-2x"></i>
+            </div>
+            <div class="logo">
+               <a href="../homepage/index-loggedin.html">
+                  <img src="resources/foto/logoapp.png" width="180px">
+               </a>
+            </div>
+            <div class="menu">
+               <ul>
+                  <a href="../homepage/index-loggedin.html"><li class="item-active">Home</li></a>
+                  <a href="../menu/menu(loggedin).html"><li class="item">Feature</li></a>
+                  <a href="#"><li class="item">FAQ</li></a>
+                  <a href="../homepage/index.html"><li class="item">Logout</li></a>
+               </ul>
+            </div>
+          </nav>
         </header>
 
         <!-- EDIT CONTENT PAGENYA DISINI -->
-        <div class="content">
-        	<!-- Title -->
-        	<div class="container-fluid padding">
-			<div class="row welcome text-center padding">
-				<div class="col-12">
-					<h1 class="display-4">Foodieasy</h1>
+        <div class="row welcome text-center padding">
+		<div class="col-12">
+			<h1 class="title">Foodieasy</h1>
+		</div>
+		<div class="col-12">
+			<h1 class="subtitle">What do you want to see first?</h1>
+		</div>
+		<div class="row text-center padding">
+			<p>		
+				<div class="card">
+					<p>
+						<a href="../myFoodIngredientsStock/foodIngredientsMain.html">My Food Ingredients Stock</a>
+					</p>
 				</div>
-				<hr>
-				<div class="col-12">
-					<p class="lead">What do you want to see first?</p>
+			</p>
+			<p>
+				<div class="card">
+					<p>
+					<a href="../MyFoodPlanMain/MyFoodPlanMain.html">My Food Plan</a>
+					</p>
 				</div>
-			</div>
-			</div>
-			<hr>
-			<div class="container-fluid padding">
-			<div class="row text-center padding">
-				<div class="col-lg-6">
-					<h2>My Food Ingredients Stock</h2>
-				</div>
-				<div class="col-lg-6">
-					<h2>My Food Plan</h2>
-			</div>		
-			</div>
-			</div>
-			</div>
-        </div>
-
-
+			</p>
+		</div>
    </body>
 </html>
