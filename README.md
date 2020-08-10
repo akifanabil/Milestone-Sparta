@@ -18,6 +18,8 @@ Dirancang oleh Foodranger - Kelompok 6 Milestone SPARTA
 
 
 # Petunjuk penggunaan :
+Web ini hanya sebatas rancangan tampilannya saja dan belum dapat berfungsi.
+
 Buka file index.html pada folder 'homepage'. Saat berada di homepage, pengguna bisa melakukan login ataupun signup pada fitur login. Setelah login/signup, pengguna akan masuk ke halaman utama website. 
 Pada fitur "Feature", ada 2 opsi yaitu "My Food Plan" dan "Donate Food"
 
