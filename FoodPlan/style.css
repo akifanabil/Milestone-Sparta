@@ -49,5 +49,9 @@ body {
   display: inline-block;
   font-size: 16px;
   border-radius: 20px;
-  
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #738a43;
 }
