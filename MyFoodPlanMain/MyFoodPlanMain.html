@@ -1,146 +1,136 @@
 <html>
-<head>
-<style>
+  <head>
+    <style>
+      h1 {
+        text-align: center;
+      }
 
-h1 {
-  text-align: center;
-}
+      .content1 {
+        text-align: center;
+        width: 15%;
+        padding: 10px;
+        Background-color: #C4CA9C;
+        margin-bottom: 20px;
+        position: fixed;
+        top: 92%;
+        left : 17%;
+        border-radius: 15%;
+      }
 
-.content1 {
-  text-align: center;
-  width: 15%;
-  padding: 10px;
-  Background-color: #C4CA9C;
-  margin-bottom: 20px;
-  position: fixed;
-  top: 92%;
-  left : 17%;
-  border-radius: 15%;
-}
+      .content1:hover{
+        background-color: #6b823b;  
+      }
 
-.content1:hover{
-  background-color: #6b823b;  
-}
+      .content2 {
+        float : left;
+        height: 350px;
+        width : 41.5%;
+        padding: 20px;
+        border-radius: 5%;
+        Background-color: #99B55E;
+        margin-bottom: 20px;
+        margin-left : 4.3%;
+        text-align: center;
+      }
 
-.content2 {
-  float : left;
-  height: 350px;
-  width : 41.5%;
-  padding: 20px;
-  border-radius: 5%;
-  Background-color: #99B55E;
-  margin-bottom: 20px;
-  margin-left : 4.3%;
-  text-align: center;
-}
+      .content3 {
+        text-align: center;
+        width: 15%;
+        padding: 10px;
+        Background-color: #C4CA9C;
+        margin-bottom: 20px;
+        position: fixed;
+        top: 92%;
+        left : 67%;
+        border-radius: 15%;
+      }
 
-.content3 {
-  text-align: center;
-  width: 15%;
-  padding: 10px;
-  Background-color: #C4CA9C;
-  margin-bottom: 20px;
-  position: fixed;
-  top: 92%;
-  left : 67%;
-  border-radius: 15%;
-}
+      .content3:hover{
+        background-color: #6b823b;  
+      }
 
-.content3:hover{
-  background-color: #6b823b;  
-}
+      .contentimg {
+        align-items: center;
+        display: block;
+        margin: auto;
+      }
 
-.contentimg {
-  align-items: center;
-  display: block;
-  margin: auto;
-}
+      .button{
+        color:#414f24;
+      }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="nav.js"></script>
+  </head>
 
-.button{
-  color:#414f24;
-}
+  <body>
+      <header>
+        <nav>
+          <div class="menu-icon">
+            <i class="fa fa-bars fa-2x"></i>
+          </div>
+          <div class="logo">
+            <a href="../homepage/index-loggedin.html">
+                <img src="resources/foto/logoapp.png" width="180px">
+            </a>
+          </div>
+          <div class="menu">
+            <ul>
+                <a href="../homepage/index-loggedin.html"><li class="item-active">Home</li></a>
+                <a href="../menu/menu(loggedin).html"><li class="item">Features</li></a>
+                <a href="#"><li class="item">FAQ</li></a>
+                <a href="../homepage/index.html"><li class="item">Logout</li></a>
+            </ul>
+          </div>
+        </nav>
+      </header>
 
 
-</style>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Welcome</title>
-  <link rel="stylesheet" href="nav.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-  <script src="nav.js"></script>
-</head>
 
-<body>
-    <header>
-      <nav>
-        <div class="menu-icon">
-           <i class="fa fa-bars fa-2x"></i>
+    <div class="row">
+      <div class="middle">
+        <h1>User, so far your food plans are</h1>
+        <div class="content2">
+          <h2>Burger</h2>
+          <img class = contentimg src="Burger.png" alt="OG" height=300px>
         </div>
-        <div class="logo">
-           <a href="../homepage/index-loggedin.html">
-              <img src="resources/foto/logoapp.png" width="180px">
-           </a>
+        <div class="content2">
+          <h2>Cordon Bleu</h2>
+          <img class = contentimg src="CordonBleu.png" alt="OG" height=250px>
         </div>
-        <div class="menu">
-           <ul>
-              <a href="../homepage/index-loggedin.html"><li class="item-active">Home</li></a>
-              <a href="../menu/menu(loggedin).html"><li class="item">Feature</li></a>
-              <a href="#"><li class="item">FAQ</li></a>
-              <a href="../homepage/index.html"><li class="item">Logout</li></a>
-           </ul>
+        <div class="content2">
+          <h2>Meat Skewer</h2>
+          <img class = contentimg src="MeatSkewer.png" alt="OG" height=300px>
         </div>
-      </nav>
-    </header>
-
-
-
-  <div class="row">
-    <div class="middle">
-      <h1>User, so far your food plans are</h1>
-      <div class="content2">
-        <h2>Burger</h2>
-        <img class = contentimg src="Burger.png" alt="OG" height=300px>
-      </div>
-      <div class="content2">
-        <h2>Cordon Bleu</h2>
-        <img class = contentimg src="CordonBleu.png" alt="OG" height=250px>
-      </div>
-      <div class="content2">
-        <h2>Meat Skewer</h2>
-        <img class = contentimg src="MeatSkewer.png" alt="OG" height=300px>
-      </div>
-      <div class="content2">
-        <h2>Fluffy Pancake</h2>
-        <img class = contentimg src="FluffyPancake.png" alt="OG" height=300px>
-      </div>
-      <div class="content2">
-        <h2>Spaghetti with Meatballs</h2>
-        <img class = contentimg src="Spaghetti.png" alt="OG" height=280px>
-      </div>
-      <div class="content2">
-        <h2>Fried Rice</h2>
-        <img class = contentimg src="FriedRice.png" alt="OG" height=200px>
-      </div>
-      <a href="../AddRecipe/addrecipe.html">
-      <div class="content1">
-        <h2 class="button">+ Add New Food</h2>
-      </div>
-      </a>
-      <a href="../FoodPlan/IngredientsList.html">
-        <div class="content3">
-          <h2 class="button">Do My Plan</h2>
+        <div class="content2">
+          <h2>Fluffy Pancake</h2>
+          <img class = contentimg src="FluffyPancake.png" alt="OG" height=300px>
         </div>
-      </a>
-    </div> 
-  </div>
-
-
-
-
-
-</body>
-
+        <div class="content2">
+          <h2>Spaghetti with Meatballs</h2>
+          <img class = contentimg src="Spaghetti.png" alt="OG" height=280px>
+        </div>
+        <div class="content2">
+          <h2>Fried Rice</h2>
+          <img class = contentimg src="FriedRice.png" alt="OG" height=200px>
+        </div>
+        <a href="../AddRecipe/addrecipe.html">
+        <div class="content1">
+          <h2 class="button">+ Add New Food</h2>
+        </div>
+        </a>
+        <a href="../FoodPlan/IngredientsList.html">
+          <div class="content3">
+            <h2 class="button">Do My Plan</h2>
+          </div>
+        </a>
+      </div> 
+    </div>
+  </body>
 </html>
